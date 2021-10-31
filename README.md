@@ -1,19 +1,8 @@
-# voting_app
+# voting app
 
-## Project setup
-```
-npm install
-```
+## This application allows users create accounts, sign in and vote for candidates
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+#### There will also be provision for select users to sign up as candidates
 
-### Compiles and minifies for production
-```
-npm run build
-```
+#### Built with Vue JS to deepen my knowledge of the frameork
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
