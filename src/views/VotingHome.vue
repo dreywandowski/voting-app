@@ -2,7 +2,8 @@
   <div class="voting">
     <img alt="Vue logo" src="../assets/logo.png">
     <footer>
-    <VotingApp msg="  Powered by Vue JS"/>
+    <VotingApp msg="Powered by Vue JS" />
+
     </footer>
 
     <br><br>

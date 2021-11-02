@@ -3,24 +3,36 @@
     <h1>{{ msg }}</h1>
     <p>
     </p>
-
+    <div class="container-lg" id="features">
+      <div class="row justify-content-center">
+        <div class="col-3 text-center">
+          <h3 class="fw-bold">Features</h3>
+          <hr class="w-25 mx-auto text-dark" style="height:2px;" />
+        </div>
+      </div>
+     <ol>
+       <li> Hi</li>
+       <li> I am here </li>
+       <li> I am here again </li>
+       <li> I am here </li>
+       <li> I am here </li>
+     </ol>
+      <a href="#"> yipee</a>
+  </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'VotingApp',
   props: {
-    msg: String
+    msg: String,
+    hello : String
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  template  {
-    background-color: #1a122c;
-  }
 h3 {
   margin: 40px 0 0;
 }
@@ -29,10 +41,11 @@ ul {
   padding: 0;
 }
 li {
-  display: inline-block;
+  display: list-item;
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: blue;
 }
+
 </style>
