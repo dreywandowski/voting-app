@@ -1,12 +1,14 @@
 <template>
-  <div class="voting">
-    <img alt="Vue logo" src="../assets/logo.png">
+
+  <div class="voting center" >
+    <!--<img alt="Vue logo" src="../assets/logo.png">-->
     <footer>
-    <VotingApp msg="Powered by Vue JS" />
+    <VotingApp msg="Powered by Vue JS"
+        hello="hey strangerrrrr"/>
 
     </footer>
-
-    <br><br>
+    <br>
+    <br>
 
   </div>
 </template>
